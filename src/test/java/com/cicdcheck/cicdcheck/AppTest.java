@@ -32,7 +32,6 @@ public class AppTest
     public void Test1() {
 		driver.navigate().to("https://automationTalks.com/");
 		System.out.println("Test 1 title is" + driver.getTitle());
-		
 	}
 
     @Test
