@@ -30,21 +30,23 @@ public class AppTest
 	
     @Test
     public void Test1() {
-		driver.navigate().to("https://automationTalks.com/");
-		System.out.println("Test 1 title is" + driver.getTitle());
+    	launchWebsite("https://automationTalks.com/","Test 1 title is");
 	}
 
     @Test
 	public void Test2() {
-		driver.navigate().to("https://automationTalks.com/");
-		System.out.println("Test 2 title is" + driver.getTitle());
+    	launchWebsite("https://automationTalks.com/","Test 2 title is");
 	}
 
     @Test
 	public void Test3() {
-		driver.navigate().to("https://automationTalks.com/");
-		System.out.println("Test 3 title is" + driver.getTitle());
+    	launchWebsite("https://automationTalks.com/","Test 3 title is");
 	}
+    
+    public void launchWebsite(String url, String textToPrint) {
+    	driver.navigate().to(url);
+		System.out.println(textToPrint + driver.getTitle());
+    }
     
     @AfterMethod
     public void quit() {
