@@ -19,10 +19,10 @@ import org.testng.annotations.Test;
 public class AppTest 
 {
 	public static WebDriver driver;
-
+	
 	@BeforeMethod
 	public void launchDriver() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Archana\\Downloads\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./src/test/lib/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
