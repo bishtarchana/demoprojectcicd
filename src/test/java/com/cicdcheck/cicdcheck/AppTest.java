@@ -1,17 +1,16 @@
 package com.cicdcheck.cicdcheck;
 
 import java.time.Duration;
-
-
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
-//import static org.junit.Assert.assertTrue;
-
-//import org.junit.Test;
 
 /**
  * Unit test for simple App.
@@ -19,10 +18,11 @@ import org.testng.annotations.Test;
 public class AppTest 
 {
 	public static WebDriver driver;
+	public static Logger log = LogManager.getLogger();
 	
 	@BeforeMethod
 	public void launchDriver() {
-		System.setProperty("webdriver.chrome.driver", "./src/test/lib/chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
@@ -45,7 +45,7 @@ public class AppTest
     
     public void launchWebsite(String url, String textToPrint) {
     	driver.navigate().to(url);
-		System.out.println(textToPrint + driver.getTitle());
+    	log.log(Level.INFO,textToPrint + driver.getTitle());
     }
     
     @AfterMethod
