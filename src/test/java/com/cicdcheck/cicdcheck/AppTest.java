@@ -22,7 +22,7 @@ public class AppTest
 	
 	@BeforeMethod
 	public void launchDriver() {
-		WebDriverManager.chromedriver().setup();
+		WebDriverManager.chromedriver().driverVersion("108.0.5359.71").setup();
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();

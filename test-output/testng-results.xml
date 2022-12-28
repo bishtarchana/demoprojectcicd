@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-28T10:50:58 IST" name="Suite" finished-at="2022-12-28T10:52:38 IST" duration-ms="100324">
+  <suite started-at="2022-12-28T11:12:23 IST" name="Suite" finished-at="2022-12-28T11:14:13 IST" duration-ms="110473">
     <groups>
     </groups>
-    <test started-at="2022-12-28T10:50:58 IST" name="Test" finished-at="2022-12-28T10:52:38 IST" duration-ms="100324">
+    <test started-at="2022-12-28T11:12:23 IST" name="Test" finished-at="2022-12-28T11:14:13 IST" duration-ms="110473">
       <class name="com.cicdcheck.cicdcheck.AppTest">
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.cicdcheck.cicdcheck.AppTest@32f0fba8]" started-at="2022-12-28T10:50:58 IST" name="launchDriver" finished-at="2022-12-28T10:51:53 IST" duration-ms="54738" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.cicdcheck.cicdcheck.AppTest@32f0fba8]" started-at="2022-12-28T11:12:23 IST" name="launchDriver" finished-at="2022-12-28T11:13:12 IST" duration-ms="49665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test1()[pri:0, instance:com.cicdcheck.cicdcheck.AppTest@32f0fba8]" started-at="2022-12-28T10:51:53 IST" name="Test1" finished-at="2022-12-28T10:52:07 IST" duration-ms="14335" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:com.cicdcheck.cicdcheck.AppTest@32f0fba8]" started-at="2022-12-28T11:13:12 IST" name="Test1" finished-at="2022-12-28T11:13:23 IST" duration-ms="10748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.cicdcheck.cicdcheck.AppTest@32f0fba8]" started-at="2022-12-28T10:52:07 IST" name="quit" finished-at="2022-12-28T10:52:08 IST" duration-ms="1077" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.cicdcheck.cicdcheck.AppTest@32f0fba8]" started-at="2022-12-28T11:13:23 IST" name="quit" finished-at="2022-12-28T11:13:25 IST" duration-ms="1534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.cicdcheck.cicdcheck.AppTest@32f0fba8]" started-at="2022-12-28T10:52:08 IST" name="launchDriver" finished-at="2022-12-28T10:52:12 IST" duration-ms="3528" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.cicdcheck.cicdcheck.AppTest@32f0fba8]" started-at="2022-12-28T11:13:25 IST" name="launchDriver" finished-at="2022-12-28T11:13:35 IST" duration-ms="10689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test2()[pri:0, instance:com.cicdcheck.cicdcheck.AppTest@32f0fba8]" started-at="2022-12-28T10:52:12 IST" name="Test2" finished-at="2022-12-28T10:52:20 IST" duration-ms="8025" status="PASS">
+        <test-method signature="Test2()[pri:0, instance:com.cicdcheck.cicdcheck.AppTest@32f0fba8]" started-at="2022-12-28T11:13:35 IST" name="Test2" finished-at="2022-12-28T11:13:52 IST" duration-ms="16895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.cicdcheck.cicdcheck.AppTest@32f0fba8]" started-at="2022-12-28T10:52:20 IST" name="quit" finished-at="2022-12-28T10:52:20 IST" duration-ms="651" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.cicdcheck.cicdcheck.AppTest@32f0fba8]" started-at="2022-12-28T11:13:52 IST" name="quit" finished-at="2022-12-28T11:13:55 IST" duration-ms="3098" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.cicdcheck.cicdcheck.AppTest@32f0fba8]" started-at="2022-12-28T10:52:20 IST" name="launchDriver" finished-at="2022-12-28T10:52:24 IST" duration-ms="3697" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.cicdcheck.cicdcheck.AppTest@32f0fba8]" started-at="2022-12-28T11:13:55 IST" name="launchDriver" finished-at="2022-12-28T11:14:06 IST" duration-ms="11059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test3()[pri:0, instance:com.cicdcheck.cicdcheck.AppTest@32f0fba8]" started-at="2022-12-28T10:52:24 IST" name="Test3" finished-at="2022-12-28T10:52:36 IST" duration-ms="11500" status="PASS">
+        <test-method signature="Test3()[pri:0, instance:com.cicdcheck.cicdcheck.AppTest@32f0fba8]" started-at="2022-12-28T11:14:06 IST" name="Test3" finished-at="2022-12-28T11:14:12 IST" duration-ms="5669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.cicdcheck.cicdcheck.AppTest@32f0fba8]" started-at="2022-12-28T10:52:36 IST" name="quit" finished-at="2022-12-28T10:52:38 IST" duration-ms="2685" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.cicdcheck.cicdcheck.AppTest@32f0fba8]" started-at="2022-12-28T11:14:12 IST" name="quit" finished-at="2022-12-28T11:14:13 IST" duration-ms="963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
